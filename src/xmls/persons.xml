@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE persons [
+        <!ELEMENT persons (person+)>
+        <!ELEMENT person (firstName, lastName, title)>
+        <!ELEMENT firstName (#PCDATA)>
+        <!ELEMENT lastName (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        ]>
+
+<persons>
+    <person>
+        <firstName>Sviataslau</firstName>
+        <lastName>Kirpik</lastName>
+        <title>chemist</title>
+    </person>
+
+    <person>
+        <firstName>Ivan</firstName>
+        <lastName>Ivanovskiy</lastName>
+        <title>worker</title>
+    </person>
+</persons>

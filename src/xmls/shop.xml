@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<shop xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation = "shop.xsd">
+
+    <meatDepartment id="1">
+        <name>meat</name>
+    </meatDepartment>
+    <groceryDepartment id="2">
+        <name>grocery</name>
+    </groceryDepartment>
+    <officeDepartment id="3">
+        <name>office</name>
+    </officeDepartment>
+
+</shop>

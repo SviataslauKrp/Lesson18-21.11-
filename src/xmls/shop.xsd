@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+    <xs:element name = "shop">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name = "meatDepartment" type="department" maxOccurs="1"/>
+                <xs:element name = "groceryDepartment" type = "department" maxOccurs="1"/>
+                <xs:element name = "officeDepartment" type= "department" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="department">
+        <xs:sequence>
+            <xs:element name = "name"/>
+        </xs:sequence>
+        <xs:attribute name = "id" type = "xs:string"/>
+    </xs:complexType>
+</xs:schema>
+
